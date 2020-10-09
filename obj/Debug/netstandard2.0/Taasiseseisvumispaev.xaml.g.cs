@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("rigipuhad.Iseseis.xaml", "Iseseis.xaml", typeof(global::rigipuhad.Iseseis))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("rigipuhad.Taasiseseisvumispaev.xaml", "Taasiseseisvumispaev.xaml", typeof(global::rigipuhad.Taasiseseisvumispaev))]
 
 namespace rigipuhad {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Iseseis.xaml")]
-    public partial class Iseseis : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Taasiseseisvumispaev.xaml")]
+    public partial class Taasiseseisvumispaev : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Iseseis));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Taasiseseisvumispaev));
         }
     }
 }

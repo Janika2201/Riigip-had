@@ -4,7 +4,6 @@
              xmlns:local ="clr-namespace:rigipuhad;assembly=rigipuhad"
              x:Class="rigipuhad.MainPage">
     <TabbedPage.Children>
-        <local:Iseseis/>
         <local:Uusaasta/>
         <local:Suurreede/>
         <local:Ulestousmispuha/>
@@ -13,6 +12,8 @@
         <local:Jaanipaev/>
         <local:Nelipuhade/>
         <local:Joululaupaev/>
+        <local:Iseseisvuspaev/>
+        <local:Taasiseseisvumispaev/>
     </TabbedPage.Children>
    
 

@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace rigipuhad
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Iseseis : ContentPage
+    public partial class Taasiseseisvumispaev : ContentPage
     {
-        public Iseseis()
+        public Taasiseseisvumispaev()
         {
             InitializeComponent();
         }

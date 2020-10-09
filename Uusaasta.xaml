@@ -5,7 +5,10 @@
              Title="U">
     <ContentPage.Content>
         <StackLayout>
+            <Image Source="uuasta.jpg" />
+            <Label Text="Uus aasta on peamine kalendripüha, mis toimub ülemineku hetkel aasta viimaselt päevalt järgmise aasta esimesele päevale. Seda tähistavad paljud rahvad vastavalt vastuvõetud kalendrile. Aasta alguse 1. jaanuarist kehtestas Rooma valitseja Julius Caesar 46 eKr."/>
             <Label Text="01. jaanuar 2020"
+                CharacterSpacing="10"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

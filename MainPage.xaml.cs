@@ -14,5 +14,10 @@ namespace rigipuhad
         {
             InitializeComponent();
         }
+        async void whichOne()
+        {
+            string action = await DisplayActionSheet("Mida avada?", "Cancel", null, "Uusaasta", "Iseseis", "Suurreede", "Ulestõusmispuhade",
+                "Kevadpüha", "Joulualaupaev", "Jaanipaev", "Nelipuhade", "Jaanipaev", "Voidupuha");
+        }
     }
 }
