@@ -2,10 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="rigipuhad.Ulestousmispuha"
-             Title="Ü">
+             Title="Ülestõusmispühade">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="12. aprill 2020"
+        <StackLayout BackgroundColor="#ff99cc">
+            <Image Source="ule.jpeg" />
+            <Label Text="Ülestõusmispühad (ka lihavõttepühad ehk lihavõtted ja munapühad) on kristluses liikuvad pühad, mis algavad esimese täiskuu pühapäevaga pärast kevadist pööripäeva. Pühad mälestavad Jeesus Kristuse surnust ülestõusmist pärast ristilöömist. Ajaliselt langevad need kokku judaismi paasapühadega. Samale ajale jääb ka maausuliste kiigepüha ehk munapüha."/>
+            <Label Text="12. aprill 2020"  BackgroundColor="Aqua"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

@@ -4,7 +4,9 @@
              x:Class="rigipuhad.Voidupuha"
              Title="V">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="#cce6ff">
+            <Image Source="foto9.jpg" />
+            <Label Text="Võidupüha on Eesti riigipüha, mida peetakse 23. juunil alates aastast 1934. Sellega tähistatakse Eesti võitu Võnnu lahingus Landeswehri üle 23. juunil 1919."/>
             <Label Text="23. juuni 2020"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />

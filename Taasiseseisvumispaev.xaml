@@ -4,10 +4,10 @@
              x:Class="rigipuhad.Taasiseseisvumispaev"
              Title="Taasiseseisvumispaev">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="#99ccff">
             <Image Source="taasi.jpg" />
             <Label Text="Taasiseseisvumispäev (ka iseseisvuse taastamise päev) on Eesti Vabariigi riigipüha, millega igal aastal 20. augustil tähistatakse Eesti Vabariigi de facto taastamist Eesti Vabariigi Ülemnõukogu otsusega Eesti riiklikust iseseisvusest, mis võeti Eesti Komiteega kooskõlastatult vastu Eesti Vabariigi Ülemnõukogu istungil 20. augustil 1991 kell 23.03."/>
-            <Label Text="20. august 2020"
+            <Label Text="20. august 2020"  BackgroundColor="Plum"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

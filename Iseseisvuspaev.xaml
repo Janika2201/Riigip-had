@@ -4,12 +4,21 @@
              x:Class="rigipuhad.Iseseisvuspaev"
              Title="Iseseisvus">
     <ContentPage.Content>
-        <StackLayout>
-            <Image Source="nezav.jpg" />
-            <Label Text="Eesti rahvuspüha, mida tähistatakse igal aastal 24. veebruaril auks Eesti iseseisvusdeklaratsiooni vastuvõtmise auks 1918. aastal, mida peetakse Eesti Vabariigi asutamise kuupäevaks."/>
-            <Label Text="24. veebruar 2020"
+        <StackLayout BackgroundColor="Blue">
+            <ImageButton Source="nezav.jpg"/>
+            <Label x:Name="label"
+               Text="Teave allpool"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"/>
+            <Label Text="Eesti rahvuspüha, mida tähistatakse igal aastal 24. veebruaril auks Eesti iseseisvusdeklaratsiooni vastuvõtmise auks 1918. aastal, mida peetakse Eesti Vabariigi asutamise kuupäevaks." FontAttributes="Bold" Opacity="0.8" BackgroundColor="#f0f5f5"/>
+            <Label Text="24. veebruar 2020" BackgroundColor="Blue"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Click to Rotate Text!"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

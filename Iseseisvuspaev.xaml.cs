@@ -16,5 +16,14 @@ namespace rigipuhad
         {
             InitializeComponent();
         }
+        async void Button_Clicked(object sender, EventArgs args)
+        {
+            await label.RelRotateTo(360, 1000);
+        }
+
+        private void ImageButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

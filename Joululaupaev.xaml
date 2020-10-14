@@ -4,7 +4,9 @@
              x:Class="rigipuhad.Joululaupaev"
              Title="J">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="#c2ccd6">
+            <Image Source="joul.jpg" />
+            <Label Text="Jõululaupäev (ka: jõuluõhtu) on 24. detsember, päev enne esimest jõulupüha. Eestis on see päev riigipüha. Juliuse kalendri järgi, mida kasutab teiste seas Vene Õigeusu Kirik, langeb see päev praegu (aastatel 1900–2099) 6. jaanuarile."/>
             <Label Text="24. detsember 2020"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
