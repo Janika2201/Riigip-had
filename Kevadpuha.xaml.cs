@@ -16,5 +16,10 @@ namespace rigipuhad
         {
             InitializeComponent();
         }
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await image.RotateTo(360, 2000);
+            image.Rotation = 0;
+        }
     }
 }

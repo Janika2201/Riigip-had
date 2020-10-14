@@ -22,3 +22,6 @@ C:\Users\opilane\source\repos\Valjataga\rigipuhad\rigipuhad\obj\Debug\netstandar
 C:\Users\opilane\source\repos\Valjataga\rigipuhad\rigipuhad\obj\Debug\netstandard2.0\Voidupuha.xaml.g.cs
 C:\Users\opilane\source\repos\Valjataga\rigipuhad\rigipuhad\obj\Debug\netstandard2.0\Iseseisvuspaev.xaml.g.cs
 C:\Users\opilane\source\repos\Valjataga\rigipuhad\rigipuhad\obj\Debug\netstandard2.0\Taasiseseisvumispaev.xaml.g.cs
+C:\Users\Admin\Source\Repos\Riigip-had\obj\Debug\netstandard2.0\rigipuhad.dll
+C:\Users\Admin\Source\Repos\Riigip-had\obj\Debug\netstandard2.0\ref\rigipuhad.dll
+C:\Users\Admin\Source\Repos\Riigip-had\obj\Debug\netstandard2.0\rigipuhad.pdb

@@ -6,6 +6,11 @@
     <ContentPage.Content>
         <StackLayout  BackgroundColor="#669999">
             <Image Source="loke.jpg" />
+            <Label x:Name="label1"
+               Text="Teave allpool"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"/>
             <Label Text="Jaanipäev on Eestis 24. juunil tähistatav püha. 24. juunile eelnevat 23. juuni päeva nimetatakse jaanilaupäevaks ja nendevahelist ööd jaaniööks, seda tähistatakse Eestis, Lätis ja põhjamaades jaanituledega."/>
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 

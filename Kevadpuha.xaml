@@ -5,7 +5,7 @@
              Title="Kevadepuha">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#cc99ff">
-            <Image Source="kevad.jpg" />
+            <Image x:Name="image" Source="kevad.jpg" />
             <Label Text="Kevadpüha on Eesti riigipüha, mida peetakse 1. mail. Pühaga tähistatakse kevade saabumist. 1. mai kui kevadpüha kattub nii rahvusvahelise töörahvapühaga kui ka Eesti rahvakalendri volbripäevaga."/>
             <Label Text="01. mai 2020"  BackgroundColor="Beige"
                 VerticalOptions="CenterAndExpand" 
